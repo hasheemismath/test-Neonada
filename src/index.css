@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.star-rating {
+  display: flex;
+}
+
+.on {
+  color: #000;
+}
+.off {
+  color: #ccc;
+}
